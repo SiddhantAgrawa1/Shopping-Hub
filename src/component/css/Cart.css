@@ -1,0 +1,50 @@
+.item{
+    display: flex;
+    border:2px solid red;
+    width:300px;
+    margin: 10px 0 10px 0;
+    padding: 4px;
+}
+#price,#quant{
+    display: flex;
+    font-size: 1.3rem;
+    margin: 5px 0 5px 4px;
+}
+#quant div{
+    margin:0 8px 0 8px;
+}
+#quant button{
+    width: 60px;
+    height: 20px;
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    border: 2px solid rgb(171, 167, 167);
+    background-color: rgba(219, 199, 199, 0.9);
+}
+#img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+#name{
+    font-size: 1.5rem;
+    margin-left: 4px;
+}
+#oprice{
+    text-decoration: line-through;
+    font-size: 1.25rem;
+    margin-top: 7px;
+}
+#dprice{
+    color:rgb(245, 9, 9);
+    margin: 0 6px 0 4px;
+    font-size: 1.5rem;
+}
+#discount{
+    color: green;
+}
